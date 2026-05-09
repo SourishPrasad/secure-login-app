@@ -1,0 +1,14 @@
+# --- Backend Framework ---
+express
+
+# --- Security & Authentication ---
+bcryptjs
+express-session
+
+# --- Utilities ---
+body-parser
+path
+
+# --- Environment Requirements ---
+Node.js (v14.0.0 or higher)
+NPM (v6.0.0 or higher)
