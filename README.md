@@ -2,7 +2,7 @@
 
 A professional, secure web application built with Node.js and Express. This project demonstrates industry-standard authentication techniques, including password hashing and session management, to protect against unauthorized access and common cyber attacks.
 
-🚀 Key Features
+## 🚀 Key Features
 
 Secure Password Hashing: Uses bcryptjs to salt and hash passwords before storage, ensuring that even if the database is compromised, user passwords remain safe.
 
@@ -14,7 +14,7 @@ Centered Dashboard: A clean, modern UI that displays a personalized "Welcome" me
 
 Input Validation: Ensures that usernames and passwords meet basic criteria before processing.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Backend: Node.js, Express.js
 
@@ -24,7 +24,7 @@ Frontend: HTML5, CSS3 (Flexbox for centering)
 
 Tools: VS Code, NPM
 
-📂 Project Structure
+## 📂 Project Structure
 
 Plaintext
 secure-login-app/
@@ -35,7 +35,7 @@ secure-login-app/
 ├── package.json         # Project Dependencies
 └── README.md            # Documentation
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 Clone or Create the Project Folder:
 Open the folder in VS Code.
@@ -61,7 +61,7 @@ node server.js
 Access the App:
 Open your browser and navigate to http://localhost:3000.
 
-🔒 Security Logic Explained
+## 🔒 Security Logic Explained
 
 1. Password Hashing (Bcrypt)
 When a user registers, the system does not store the actual password. It generates a "salt" and runs the password through a one-way hashing algorithm.
@@ -82,7 +82,7 @@ justify-content: center;
 align-items: center;
 height: 100vh;
 
-✅ Project Checklist
+## ✅ Project Checklist
 
 [x] Secure Password Hashing (Bcrypt)
 
@@ -94,6 +94,6 @@ height: 100vh;
 
 [x] Protection from basic SQL Injection
 
-📄 Expected Outcome
+## 📄 Expected Outcome
 
 A robust and secure authentication gateway that significantly reduces unauthorized access and protects user accounts through modern cryptographic standards.
