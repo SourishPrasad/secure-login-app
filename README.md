@@ -26,14 +26,16 @@ Tools: VS Code, NPM
 
 ## 📂 Project Structure
 
-Plaintext
+```text
 secure-login-app/
 ├── public/
-│   ├── index.html       # Centered Login UI
-│   └── register.html    # Centered Registration UI
-├── server.js            # Backend Logic & Session Handling
-├── package.json         # Project Dependencies
-└── README.md            # Documentation
+│   ├── index.html        # Centered Login UI
+│   └── register.html     # Centered Registration UI
+├── server.js             # Backend Logic & Session Handling
+├── package.json          # Project Dependencies
+├── .gitignore            # Git Ignore File
+├── requirements.txt      # Security Tool Specs
+└── README.md             # Documentation
 
 ## ⚙️ Installation & Setup
 
