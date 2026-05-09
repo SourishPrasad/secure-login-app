@@ -1,4 +1,4 @@
-# 🛡️ Secure Login System (Thiranex Project)
+# 🛡️ Secure Login System
 
 A professional, secure web application built with Node.js and Express. This project demonstrates industry-standard authentication techniques, including password hashing and session management, to protect against unauthorized access and common cyber attacks.
 
